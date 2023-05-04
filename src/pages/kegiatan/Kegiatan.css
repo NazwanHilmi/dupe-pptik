@@ -1,0 +1,13 @@
+.post-card-list.kegiatan {
+    margin: 0 20px;
+}
+
+.post-card-list.kegiatan img {
+    max-width: 300px;
+    height: auto;
+    margin: 0 0 10px 0;
+}
+
+.post-next-button.kegiatan {
+    display: none;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+.content-mitra {
+    margin: 50px auto 0 auto;
+}
+
+.category {
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+    padding: 0 0 20px 0;
+    margin: 0 0 10px 0;
+}
+
+.category h1 {
+    color: #666;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Titillium Web', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.category h1 span {
+    color: #aaa;
+}
+
+.category h1 i {
+    margin-right: 10px;
+}
+
+.post-list {
+    width: 100%;
+    margin: 0 auto;
+}

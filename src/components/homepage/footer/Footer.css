@@ -1,0 +1,72 @@
+footer {
+    position: relative;
+    width: 77%;
+    padding: 0 0 30px 0;
+    margin: 20px auto 0 auto;
+}
+
+.post-next-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #21add1;
+    margin: 20px 0;
+}
+
+.post-next-button a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Titillium Web', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.post-next-button a span {
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.button-link {
+    margin: 30px 10px 20px 10px;
+}
+
+.button-link a {
+    padding: 7px 20px 2px 20px;
+    background-color: #21add1;
+    color: white;
+    border-radius: 5px;
+}
+
+.button-link a i {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer .logo-text {
+    display: flex;
+}
+
+.footer .logo-text img {
+    margin: 0 10px;
+    width: 23.8px;
+    height: 35px;
+}
+
+.footer .logo-text p {
+    color: #777777;
+}
+
+.footer .logo-text p a {
+    color: #21add1;
+    text-decoration: none;
+}
+
+.footer .fesbuk i {
+    color: #21add1;
+}

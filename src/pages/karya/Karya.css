@@ -1,0 +1,24 @@
+.content-karya {
+    margin: 50px auto 0 auto;
+}
+
+.category {
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+    padding: 0 0 20px 0;
+    margin: 0 0 10px 0;
+}
+
+.post-card-list.karya img {
+    max-width: 300px;
+    height: auto;
+    margin: 0 0 10px 0;
+}
+
+.post-next-button.karya {
+    display: none;
+}
+
+.post-card-desc {
+    text-transform: none;
+}

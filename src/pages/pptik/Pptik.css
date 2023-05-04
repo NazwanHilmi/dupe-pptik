@@ -1,0 +1,64 @@
+.pptik-title {
+    font-family: 'Titillium Web', Arial, sans-serif;
+    border-bottom: 1px solid #eee;
+    margin: 30px 0 40px 0;
+    padding: 0 0 10px 0;
+}
+
+.pptik-title h2 {
+    font-size: 24px;
+    color: #666;
+}
+
+.pptik-content .title-content {
+    font-family: 'Titillium Web', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.pptik-content .title-content .content-desc {
+    color: #666;
+    font-size: 15px;
+}
+
+.pptik-content .title-content p:nth-child(1) {
+    color: #444;
+}
+
+.pptik-content .title-content ul li {
+    font-size: 15px;
+    color: #666;
+    list-style: decimal;
+}
+
+.pptik-content .title-content .content-image {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.pptik-content .title-content .content-image .pptik-img {
+    background: #f1f1f1;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+
+.pptik-content .title-content .content-image p {
+    font-style: italic;
+    padding: 10px;
+}
+
+.pptik-content .title-content.square ul li {
+    list-style: square;
+}
+
+pptik-content .title-content.vm {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.pptik-content .title-content .content-image.vm {
+    margin: 0;
+    text-align: left;
+}
