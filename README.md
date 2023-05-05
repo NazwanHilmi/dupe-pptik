@@ -1,3 +1,3 @@
-Tugas PKL Pembuatan Web Duplikat Dari Website PPTIK ITB
+Tugas PKL Pembuatan Web Tiruan Dari Website PPTIK ITB
 
-Link Website PPTIK As : https://pptik.itb.ac.id/
+Link Website PPTIK ITB Aseli: https://pptik.itb.ac.id/
