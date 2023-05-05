@@ -75,7 +75,7 @@ const Header = () => {
                                                 <li><a href="https://pptik.itb.ac.id/?page_id=857">Advance Robotics &amp; Automation</a>
                                                     <ul className='navbar-dropdown-down'>
                                                         <li><a>ROV</a></li>
-                                                        <li><a href="http://k">Seaglider</a></li>
+                                                        <li><a href="/">Seaglider</a></li>
                                                         <li><a>Lumen Robot Friend</a></li>
                                                     </ul>
                                                     <div className='drop-menu'></div>
@@ -99,7 +99,7 @@ const Header = () => {
                                 <li>
                                     <a href="#" aria-current="page">Abstein</a>
                                     <ul className='navbar-dropdown'>
-                                        <li><a href="https://pptik.itb.ac.id/?p=1378">Modul Belajar</a></li>
+                                        <li><a href="/modulpage">Modul Belajar</a></li>
                                     </ul>
                                     <div className='drop-menu'></div>
                                 </li>
@@ -109,8 +109,8 @@ const Header = () => {
                                 <li>
                                     <a href="/tentangpage" aria-current="page">Tentang</a>
                                     <ul className='navbar-dropdown'>
-                                        <li><a href="https://pptik.itb.ac.id/?page_id=4010">Privacy Policy</a></li>
-                                        <li><a href="https://pptik.itb.ac.id/?page_id=4012">Kontak</a></li>
+                                        <li><a href="/privacypage">Privacy Policy</a></li>
+                                        <li><a href="/kontakpage">Kontak</a></li>
                                     </ul>
                                     <div className='drop-menu'></div>
                                 </li>

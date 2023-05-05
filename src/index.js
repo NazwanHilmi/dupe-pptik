@@ -7,9 +7,10 @@ import Mitra from './pages/mitra/Mitra';
 import Galeri from './pages/galeri/Galeri';
 import Pptik from './pages/pptik/Pptik';
 import Peneliti from './pages/peneliti/Peneliti';
-import Tentang from './pages/tentang/Tentang';
+import Tentang, { Kontak, PrivacyPolicy } from './pages/tentang/Tentang';
 import Seminar, { Riset } from './pages/kegiatan/seminar/Seminar';
 import SmartSystem from './pages/karya/smartsystem/SmartSystem';
+import ModulBelajar from './pages/abstein/Abstein';
 
 import {
   createBrowserRouter,
@@ -60,6 +61,18 @@ const router = createBrowserRouter([
   {
     path: "smartpage",
     element: <SmartSystem />
+  },
+  {
+    path: "privacypage",
+    element: <PrivacyPolicy />
+  },
+  {
+    path: "kontakpage",
+    element: <Kontak />
+  },
+  {
+    path: "modulpage",
+    element: <ModulBelajar />
   },
 ]);
 

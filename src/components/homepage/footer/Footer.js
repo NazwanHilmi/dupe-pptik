@@ -17,7 +17,7 @@ const Footer = () => {
                     <p><a href='#'>Institut Teknologi Bandung</a> &copy;2023. All rights</p>
                 </div>
                 <div className='fesbuk'>
-                    <a href='https://www.facebook.com/PPTIKITB'>
+                    <a href='https://www.facebook.com/PPTIKITB' target="_blank">
                         <i class="fa-brands fa-facebook-f fa-xl" alt="Facebook"></i>
                     </a>
                 </div>

@@ -18,11 +18,20 @@
     font-weight: 700;
 }
 
+.tentang-content .content-title {
+    font-weight: 700;
+}
+
 .tentang-content .about-title {
     font-weight: 500;
 }
 
 .tentang-content ul {
-    list-style: none;
+    list-style: square;
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #21add1;
 }

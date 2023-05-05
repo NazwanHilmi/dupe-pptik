@@ -8,10 +8,10 @@ function Tentang() {
             <div className='containers'>
                 <div className='tentang'>
                     <div className='tentang-title'>
-                        <h2>Tentang</h2>
+                        <h2>Kontak</h2>
                     </div>
                     <div className='tentang-content'>
-                        <p>Privacy Policy</p>
+                        <p className='content-title'>Privacy Policy</p>
                         <div className='about-title'>
                             <p>Updated at 2022-03-08</p>
                             <p>VidyaMedic (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by VidyaMedic.</p>
@@ -29,7 +29,7 @@ function Tentang() {
                                 -Personal Data: any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.<br></br>
                                 -Service: refers to the service provided by VidyaMedic as described in the relative terms (if available) and on this platform.<br></br>
                                 -Third-party service: refers to advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you.<br></br>
-                                -Website: VidyaMedic.”’s” site, which can be accessed via this URL: http://vidyamedic.pptik.id/assets/template/frontend/privacy-policy.html<br></br>
+                                -Website: VidyaMedic. "s" site, which can be accessed via this URL: http://vidyamedic.pptik.id/assets/template/frontend/privacy-policy.html<br></br>
                                 -You: a person or entity that is registered with VidyaMedic to use the Services.<br></br>
                             </p>
                             <p>What Information Do We Collect?<br></br>
@@ -81,6 +81,23 @@ function Tentang() {
                                 Customers have the right to request the restriction of certain uses and disclosures of personally identifiable information as follows. You can contact us in order to (1) update or correct your personally identifiable information, (2) change your preferences with respect to communications and other information you receive from us, or (3) delete the personally identifiable information maintained about you on our systems (subject to the following paragraph), by cancelling your account. Such updates, corrections, changes and deletions will have no effect on other information that we maintain, or information that we have provided to third parties in accordance with this Privacy Policy prior to such update, correction, change or deletion. To protect your privacy and security, we may take reasonable steps (such as requesting a unique password) to verify your identity before granting you profile access or making corrections. You are responsible for maintaining the secrecy of your unique password and account information at all times.
                                 You should be aware that it is not technologically possible to remove each and every record of the information you have provided to us from our system. The need to back up our systems to protect information from inadvertent loss means that a copy of your information may exist in a non-erasable form that will be difficult or impossible for us to locate. Promptly after receiving your request, all personal information stored in databases we actively use, and other readily searchable media will be updated, corrected, changed or deleted, as appropriate, as soon as and to the extent reasonably and technically practicable.
                             </p>
+                            <p>Contact Us</p>
+                            <p>Don’t hesitate to contact us if you have any questions.</p>
+                            <ul>
+                                <li>Via email : vidya@pptik.itb.ac.id</li>
+                                <li>Via Phone Number:  +62-813-1270-2005</li>
+                            </ul><br></br>
+                            <p>Kontak</p>
+                            <p>Pusat Penelitian Teknologi Informasi dan Komunikasi (PPTIK)<br></br>
+                                Kepala PP : Dr. Ary Setijadi Prihatmanto, ST., MT.</p>
+                            <p>Alamat :<br></br>
+                                4th Floor, Gd. Litbang Integrasi dan Aplikasi (PAU)<br></br>
+                                Jl. Tamansari No. 126, Bandung 40132, Indonesia<br></br>
+                                Phone: +62-22-4254034   / 0811 2298 086<br></br>
+                                Fax: +62-22-2508763</p>
+                            <p>Email : yuliawati.pptik@gmail.com<br></br>
+                                tessa.pptik@gmail.com</p>
+                            <p>Website : <a href=' www.pptik.id'> www.pptik.id</a></p>
                         </div>
                     </div>
                 </div>
@@ -90,3 +107,128 @@ function Tentang() {
 }
 
 export default Tentang
+
+export const PrivacyPolicy = () => {
+    return (
+        <MainLayout>
+            <div className='containers'>
+                <div className='tentang'>
+                    <div className='tentang-title'>
+                        <h2>Privacy Policy</h2>
+                    </div>
+                    <div className='tentang-content'>
+                        <p className='content-title'>Privacy Policy</p>
+                        <div className='about-title'>
+                            <p>Updated at 2022-03-08</p>
+                            <p>VidyaMedic (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by VidyaMedic.</p>
+                            <p>This Privacy Policy applies to our website, and its associated subdomains (collectively, our “Service”) alongside our application, VidyaMedic. By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy and our Terms of Service.</p>
+                            <p>Definitions and key terms</p>
+                            <p>To help explain things as clearly as possible in this Privacy Policy, every time any of these terms are referenced, are strictly defined as:</p>
+                            <p>
+                                -Cookie: small amount of data generated by a website and saved by your web browser. It is used to identify your browser, provide analytics, remember information about you such as your language preference or login information.<br></br>
+                                -Company: when this policy mentions “Company,” “we,” “us,” or “our,” it refers to PPTIK ITB, (Jl Ganesha 10 Kota Bandung) that is responsible for your information under this Privacy Policy.<br></br>
+                                -Country: where VidyaMedic or the owners/founders of VidyaMedic are based, in this case is Indonesia<br></br>
+                                -Customer: refers to the company, organization or person that signs up to use the VidyaMedic Service to manage the relationships with your consumers or service users.<br></br>
+                                -Device: any internet connected device such as a phone, tablet, computer or any other device that can be used to visit VidyaMedic and use the services.<br></br>
+                                -IP address: Every device connected to the Internet is assigned a number known as an Internet protocol (IP) address. These numbers are usually assigned in geographic blocks. An IP address can often be used to identify the location from which a device is connecting to the Internet.<br></br>
+                                -Personnel: refers to those individuals who are employed by VidyaMedic or are under contract to perform a service on behalf of one of the parties.<br></br>
+                                -Personal Data: any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.<br></br>
+                                -Service: refers to the service provided by VidyaMedic as described in the relative terms (if available) and on this platform.<br></br>
+                                -Third-party service: refers to advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you.<br></br>
+                                -Website: VidyaMedic. "s" site, which can be accessed via this URL: http://vidyamedic.pptik.id/assets/template/frontend/privacy-policy.html<br></br>
+                                -You: a person or entity that is registered with VidyaMedic to use the Services.<br></br>
+                            </p>
+                            <p>What Information Do We Collect?<br></br>
+                                We collect information from you when you visit our website, register on our site, place an order, subscribe to our newsletter, respond to a survey or fill out a form.
+                            </p>
+                            <p>
+                                -Name / Username<br></br>
+                                -Phone Numbers<br></br>
+                                -Email Addresses<br></br>
+                                -Email Addresses<br></br>
+                                -Job Titles<br></br>
+                                -Billing Addresses<br></br>
+                                -Billing Addresses<br></br>
+                            </p>
+                            <p>How Do We Use The Information We Collect?<br></br>
+                                Any of the information we collect from you may be used in one of the following ways:</p>
+                            <p>
+                                -To personalize your experience (your information helps us to better respond to your individual needs)<br></br>
+                                -To improve our website (we continually strive to improve our website offerings based on the information and feedback we receive from you)<br></br>
+                                -To improve customer service (your information helps us to more effectively respond to your customer service requests and support needs)<br></br>
+                                -To process transactions<br></br>
+                                -To administer a contest, promotion, survey or other site feature<br></br>
+                                -To send periodic emails<br></br>
+                            </p>
+                            <p>When does VidyaMedic use end user information from third parties?<br></br>
+                                VidyaMedic will collect End User Data necessary to provide the VidyaMedic services to our customers.
+                                End users may voluntarily provide us with information they have made available on social media websites. If you provide us with any such information, we may collect publicly available information from the social media websites you have indicated. You can control how much of your information social media websites make public by visiting these websites and changing your privacy settings.</p>
+                            <p>When does VidyaMedic use customer information from third parties?<br></br>
+                                We receive some information from the third parties when you contact us. For example, when you submit your email address to us to show interest in becoming a VidyaMedic customer, we receive information from a third party that provides automated fraud detection services to VidyaMedic. We also occasionally collect information that is made publicly available on social media websites. You can control how much of your information social media websites make public by visiting these websites and changing your privacy settings.</p>
+                            <p>When does VidyaMedic use customer information from third parties?<br></br>
+                                We receive some information from the third parties when you contact us. For example, when you submit your email address to us to show interest in becoming a VidyaMedic customer, we receive information from a third party that provides automated fraud detection services to VidyaMedic. We also occasionally collect information that is made publicly available on social media websites. You can control how much of your information social media websites make public by visiting these websites and changing your privacy settings.</p>
+                            <p>We may engage trusted third party service providers to perform functions and provide services to us, such as hosting and maintaining our servers and the website, database storage and management, e-mail management, storage marketing, credit card processing, customer service and fulfilling orders for products and services you may purchase through the website. We will likely share your personal information, and possibly some non-personal information, with these third parties to enable them to perform these services for us and for you.</p>
+                            <p>We may share portions of our log file data, including IP addresses, for analytics purposes with third parties such as web analytics partners, application developers, and ad networks. If your IP address is shared, it may be used to estimate general location and other technographics such as connection speed, whether you have visited the website in a shared location, and type of the device used to visit the website. They may aggregate information about our advertising and what you see on the website and then provide auditing, research and reporting for us and our advertisers.</p>
+                            <p>We may also disclose personal and non-personal information about you to government or law enforcement officials or private parties as we, in our sole discretion, believe necessary or appropriate in order to respond to claims, legal process (including subpoenas), to protect our rights and interests or those of a third party, the safety of the public or any person, to prevent or stop any illegal, unethical, or legally actionable activity, or to otherwise comply with applicable court orders, laws, rules and regulations.</p>
+                            <p>Where and when is information collected from customers and end users?<br></br>
+                                VidyaMedic will collect personal information that you submit to us. We may also receive personal information about you from third parties as described above.</p>
+                            <p>How Do We Use Your Email Address?<br></br>
+                                By submitting your email address on this website, you agree to receive emails from us. You can cancel your participation in any of these email lists at any time by clicking on the opt-out link or other unsubscribe option that is included in the respective email. We only send emails to people who have authorized us to contact them, either directly, or through a third party. We do not send unsolicited commercial emails, because we hate spam as much as you do. By submitting your email address, you also agree to allow us to use your email address for customer audience targeting on sites like Facebook, where we display custom advertising to specific people who have opted-in to receive communications from us. Email addresses submitted only through the order processing page will be used for the sole purpose of sending you information and updates pertaining to your order. If, however, you have provided the same email to us through another method, we may use it for any of the purposes stated in this Policy. Note: If at any time you would like to unsubscribe from receiving future emails, we include detailed unsubscribe instructions at the bottom of each email.</p>
+                            <p>How Do We Use Your Email Address?<br></br><br></br>
+                                By submitting your email address on this website, you agree to receive emails from us. You can cancel your participation in any of these email lists at any time by clicking on the opt-out link or other unsubscribe option that is included in the respective email. We only send emails to people who have authorized us to contact them, either directly, or through a third party. We do not send unsolicited commercial emails, because we hate spam as much as you do. By submitting your email address, you also agree to allow us to use your email address for customer audience targeting on sites like Facebook, where we display custom advertising to specific people who have opted-in to receive communications from us. Email addresses submitted only through the order processing page will be used for the sole purpose of sending you information and updates pertaining to your order. If, however, you have provided the same email to us through another method, we may use it for any of the purposes stated in this Policy. Note: If at any time you would like to unsubscribe from receiving future emails, we include detailed unsubscribe instructions at the bottom of each email.<br></br><br></br>
+                                How Do We Protect Your Information?<br></br>
+                                We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information. We offer the use of a secure server. All supplied sensitive/credit information is transmitted via Secure Socket Layer (SSL) technology and then encrypted into our Payment gateway providers database only to be accessible by those authorized with special access rights to such systems, and are required to keep the information confidential. After a transaction, your private information (credit cards, social security numbers, financials, etc.) is never kept on file. We cannot, however, ensure or warrant the absolute security of any information you transmit to VidyaMedic or guarantee that your information on the Service may not be accessed, disclosed, altered, or destroyed by a breach of any of our physical, technical, or managerial safeguards.<br></br><br></br>
+                                Could my information be transferred to other countries?<br></br>
+                                VidyaMedic is incorporated in Indonesia. Information collected via our website, through direct interactions with you, or from use of our help services may be transferred from time to time to our offices or personnel, or to third parties, located throughout the world, and may be viewed and hosted anywhere in the world, including countries that may not have laws of general applicability regulating the use and transfer of such data. To the fullest extent allowed by applicable law, by using any of the above, you voluntarily consent to the trans-border transfer and hosting of such information.<br></br><br></br>
+                                Is the information collected through the VidyaMedic Service secure?<br></br>
+                                We take precautions to protect the security of your information. We have physical, electronic, and managerial procedures to help safeguard, prevent unauthorized access, maintain data security, and correctly use your information. However, neither people nor security systems are foolproof, including encryption systems. In addition, people can commit intentional crimes, make mistakes or fail to follow policies. Therefore, while we use reasonable efforts to protect your personal information, we cannot guarantee its absolute security. If applicable law imposes any non-disclaimable duty to protect your personal information, you agree that intentional misconduct will be the standards used to measure our compliance with that duty.<br></br><br></br>
+                                Can I update or correct my information?<br></br>
+                                The rights you have to request updates or corrections to the information VidyaMedic collects depend on your relationship with VidyaMedic. Personnel may update or correct their information as detailed in our internal company employment policies.<br></br><br></br>
+                                Customers have the right to request the restriction of certain uses and disclosures of personally identifiable information as follows. You can contact us in order to (1) update or correct your personally identifiable information, (2) change your preferences with respect to communications and other information you receive from us, or (3) delete the personally identifiable information maintained about you on our systems (subject to the following paragraph), by cancelling your account. Such updates, corrections, changes and deletions will have no effect on other information that we maintain, or information that we have provided to third parties in accordance with this Privacy Policy prior to such update, correction, change or deletion. To protect your privacy and security, we may take reasonable steps (such as requesting a unique password) to verify your identity before granting you profile access or making corrections. You are responsible for maintaining the secrecy of your unique password and account information at all times.
+                                You should be aware that it is not technologically possible to remove each and every record of the information you have provided to us from our system. The need to back up our systems to protect information from inadvertent loss means that a copy of your information may exist in a non-erasable form that will be difficult or impossible for us to locate. Promptly after receiving your request, all personal information stored in databases we actively use, and other readily searchable media will be updated, corrected, changed or deleted, as appropriate, as soon as and to the extent reasonably and technically practicable.
+                            </p>
+                            <p className='content-title'>Contact Us</p>
+                            <p>Don’t hesitate to contact us if you have any questions.</p>
+                            <ul>
+                                <li>Via email : vidya@pptik.itb.ac.id</li>
+                                <li>Via Phone Number:  +62-813-1270-2005</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </MainLayout>
+    )
+}
+
+export const Kontak = () => {
+    return (
+        <MainLayout>
+            <div className='containers'>
+                <div className='tentang'>
+                    <div className='tentang-title'>
+                        <h2>Kontak</h2>
+                        <div className='tentang-content'>
+                            <p className='content-title'>Kontak</p>
+                            <div className='about-title'>
+                                <p>Pusat Penelitian Teknologi Informasi dan Komunikasi (PPTIK)<br></br>
+                                    Kepala PP : Dr. Ary Setijadi Prihatmanto, ST., MT.</p>
+                                <p>Alamat :<br></br>
+                                    4th Floor, Gd. Litbang Integrasi dan Aplikasi (PAU)<br></br>
+                                    Jl. Tamansari No. 126, Bandung 40132, Indonesia<br></br>
+                                    Phone: +62-22-4254034   / 0811 2298 086<br></br>
+                                    Fax: +62-22-2508763</p>
+                                <p>Email : yuliawati.pptik@gmail.com<br></br>
+                                    tessa.pptik@gmail.com</p>
+                                <p>Website : <a href=' www.pptik.id'> www.pptik.id</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </MainLayout>
+    )
+}
+
+
+
