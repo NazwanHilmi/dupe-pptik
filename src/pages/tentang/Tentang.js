@@ -3,6 +3,8 @@ import MainLayout from '../../layout/MainLayout'
 import './Tentang.css'
 
 function Tentang() {
+    document.title = "Kontak - Pusat Penelitian Teknologi Informasi dan Komunikasi";
+
     return (
         <MainLayout>
             <div className='containers'>
@@ -109,6 +111,8 @@ function Tentang() {
 export default Tentang
 
 export const PrivacyPolicy = () => {
+    document.title = "Privacy Policy - Pusat Penelitian Teknologi Informasi dan Komunikasi";
+
     return (
         <MainLayout>
             <div className='containers'>
@@ -202,6 +206,8 @@ export const PrivacyPolicy = () => {
 }
 
 export const Kontak = () => {
+    document.title = "Kontak - Pusat Penelitian Teknologi Informasi dan Komunikasi";
+
     return (
         <MainLayout>
             <div className='containers'>

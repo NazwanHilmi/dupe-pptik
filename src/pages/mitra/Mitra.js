@@ -14,6 +14,9 @@ import post9 from '../../components/img/post/post-card9.jpeg'
 import post10 from '../../components/img/post/post-card10.jpeg'
 
 function Mitra() {
+    document.title = "Mitra - Pusat Penelitian Teknologi Informasi dan Komunikasi";
+
+
     return (
         <MainLayout>
             <div className='containers'>

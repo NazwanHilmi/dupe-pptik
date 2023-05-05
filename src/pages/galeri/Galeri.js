@@ -13,6 +13,8 @@ import gallery9 from '../../components/img/gallery/9.jpeg'
 
 
 function Galeri() {
+    document.title = "Galeri - Pusat Penelitian Teknologi Informasi dan Komunikasi";
+
     const playerRef = useRef(null);
 
     function changeVideo(videoSrc) {

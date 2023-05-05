@@ -16,6 +16,8 @@ import card1 from '../../../components/img/kegiatan/riset/1.png'
 import card2 from '../../../components/img/kegiatan/riset/2.png'
 
 const Seminar = () => {
+    document.title = "Seminar & Workshop - Pusat Penelitian Teknologi Informasi dan Komunikasi";
+
     return (
         <MainLayout>
             <div className='containers'>
@@ -124,6 +126,9 @@ const Seminar = () => {
 export default Seminar
 
 export const Riset = () => {
+    document.title = "Riset - Pusat Penelitian Teknologi Informasi dan Komunikasi";
+
+
     return (
         <MainLayout>
             <div className='containers'>

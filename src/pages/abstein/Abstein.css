@@ -52,10 +52,14 @@
     max-height: 281px;
 }
 
-.modul-content .about-content {}
-
 .modul-content .about-content p {
     color: #666;
     font-size: 15px;
     text-transform: none;
+}
+
+.about-video iframe {
+    width: 1000px;
+    height: 500px;
+    margin: 0 0 10px 0;
 }

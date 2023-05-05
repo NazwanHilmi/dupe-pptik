@@ -6,6 +6,9 @@ import pptik2 from "../../components/img/pptik/2.jpg"
 import pptik3 from "../../components/img/pptik/3.jpg"
 
 function Pptik() {
+    document.title = "Tentang PPTIK - Pusat Penelitian Teknologi Informasi dan Komunikasi";
+
+
     return (
         <MainLayout>
             <div className='containers'>

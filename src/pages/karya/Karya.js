@@ -13,6 +13,8 @@ import post9 from '../../components/img/karya/9.jpeg'
 import post10 from '../../components/img/karya/10.jpeg'
 
 function Karya() {
+  document.title = "Karya - Pusat Penelitian Teknologi Informasi dan Komunikasi";
+
   return (
     <MainLayout>
       <div className='containers'>

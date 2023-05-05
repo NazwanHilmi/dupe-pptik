@@ -19,6 +19,9 @@ import peneliti14 from '../../components/img/peneliti/14.jpg'
 
 
 function Peneliti() {
+    document.title = "Peneliti & Staf - Pusat Penelitian Teknologi Informasi dan Komunikasi";
+
+
     return (
         <MainLayout>
             <div className='containers'>

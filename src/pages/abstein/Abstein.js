@@ -5,6 +5,8 @@ import modul1 from '../../components/img/abstein/1.jpeg'
 import modul2 from '../../components/img/abstein/2.jpeg'
 
 const ModulBelajar = () => {
+    document.title = "Workshop | Bahan Materi - Pusat Penelitian Teknologi Informasi dan Komunikasi";
+
     return (
         <MainLayout>
             <div className='containers'>
@@ -30,6 +32,26 @@ const ModulBelajar = () => {
                                 <br></br>
                                 <br></br>
                                 <p>Beberapa Materi WorkShop IoT di mulai dari Merakit sampai Menampilkan di Website</p>
+                                <div className='content-video'>
+                                    <div className='about-video'>
+                                        <p>1. Video Tutorial Merakit Mesin Abstein Menggunakan RFID Reader</p>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7iKKicDepX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <div className='about-video'>
+                                        <p>2. Video Konfigurasi Node MCU</p>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Az-MAnXXyL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <div className='about-video'>
+                                        <p>3.Video Konfigurasi Wifi</p>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mKp2zMxo8-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <div className='about-video'>
+                                        <p>4. Video Pemasangan Mesin Absensi</p>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-TD--_8HdF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <p>File Workshop : <a href='https://1drv.ms/b/s!AscxZIjmF6VzmfhNymtxfZP_e7CnpQ'>Download Disini</a></p>
+                                <p>Call Center <a href='http://bit.ly/adminIoT'>WA Admin | Click Here</a></p>
                             </div>
                         </div>
                     </div>

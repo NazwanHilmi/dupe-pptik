@@ -13,6 +13,8 @@ import post9 from '../../components/img/kegiatan/9.jpeg'
 import post10 from '../../components/img/kegiatan/10.jpeg'
 
 function Kegiatan() {
+  document.title = "Kegiatan - Pusat Penelitian Teknologi Informasi dan Komunikasi";
+
   return (
     <MainLayout>
       <div className='containers'>
