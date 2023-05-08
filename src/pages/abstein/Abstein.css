@@ -63,3 +63,25 @@
     height: 500px;
     margin: 0 0 10px 0;
 }
+
+.tags {
+    display: flex;
+}
+
+.tags .content-tags {
+    display: flex;
+}
+
+.tags .content-tags a p {
+    color: #21ADD1;
+    text-transform: none;
+    margin: 0 5px 0 0;
+    background-color: #f2f2f2;
+    padding: 2px 5px 2px 5px;
+    transition: 0.1s;
+}
+
+.tags .content-tags a p:hover {
+    background-color: #82b965;
+    text-decoration: underline;
+}

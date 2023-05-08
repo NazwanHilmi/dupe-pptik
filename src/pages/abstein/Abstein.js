@@ -53,6 +53,15 @@ const ModulBelajar = () => {
                                 <p>File Workshop : <a href='https://1drv.ms/b/s!AscxZIjmF6VzmfhNymtxfZP_e7CnpQ'>Download Disini</a></p>
                                 <p>Call Center <a href='http://bit.ly/adminIoT'>WA Admin | Click Here</a></p>
                             </div>
+                            <div className='tags'>
+                                <p>Tags :</p>
+                                <div className='content-tags'>
+                                    <a href='#'><p>absensiAbstein</p></a>
+                                    <a href='#'><p>absensifrid</p></a>
+                                    <a href='#'><p>AbsensiAbstein</p></a>
+                                    <a href='#'><p>mesinabsensiot</p></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
