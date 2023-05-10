@@ -1,6 +1,6 @@
 footer {
     position: relative;
-    width: 77%;
+    width: 75%;
     padding: 0 0 30px 0;
     margin: 20px auto 0 auto;
 }
@@ -10,7 +10,7 @@ footer {
     justify-content: flex-end;
     align-items: flex-end;
     color: #21add1;
-    margin: 20px 0;
+    margin: 20px 0 100px 0;
 }
 
 .post-next-button a {

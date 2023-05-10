@@ -1,13 +1,14 @@
 ::selection {
     background-color: #82B965;
-    color: #fff; /* Optional: mengubah warna teks menjadi putih */
+    color: #fff;
+    /* Optional: mengubah warna teks menjadi putih */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
 
 * {
     box-sizing: border-box;
-    margin: 0 ;
+    margin: 0;
     padding: 0;
 }
 
@@ -27,13 +28,13 @@ div.container.groups {
 }
 
 div.groups.pads {
-    width: 76%;
+    width: 75%;
     display: flex;
     margin: 0 auto;
     color: #666666;
     font-size: 16px;
     font-family: 'Titillium Web', Arial, sans-serif;
-    padding:  20px 0 6px 0;
+    padding: 20px 0 6px 0;
 }
 
 
@@ -47,7 +48,7 @@ div.groups.pads {
 
 .siteDesc {
     color: #fff;
-    float: left;
+    float: right;
     font-size: 24px;
     font-weight: 600;
     word-spacing: 1px;
@@ -59,7 +60,7 @@ div.groups.pads {
     position: relative;
     margin: 0 auto;
     padding: 0;
-    width: 76%;
+    width: 75%;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -68,8 +69,8 @@ div.groups.pads {
     z-index: 999;
 }
 
-.navbarNav li{
-    padding: 10px;
+.navbarNav li {
+    padding: 8px 10px 10px 10px;
 }
 
 .navbarNav li a {
@@ -81,7 +82,7 @@ div.groups.pads {
     font-family: 'Titillium Web', Arial, sans-serif;
 }
 
-.navbarNav li:hover{
+.navbarNav li:hover {
     color: #FFFFFF;
     background-color: #0000001A;
 }
@@ -92,7 +93,7 @@ div.groups.pads {
 
 .drop-menu {
     display: inline-block;
-    content: ""; 
+    content: "";
     margin-left: 5px;
     width: 0;
     height: 0;
@@ -105,7 +106,7 @@ div.groups.pads {
 .navbar-dropdown .drop-menu {
     margin-top: 8px;
     float: right;
-    content: ""; 
+    content: "";
     width: 0;
     height: 0;
     border-bottom: 4px solid transparent;
@@ -117,7 +118,7 @@ div.groups.pads {
 .navbar-drop-down .drop-menu {
     margin-top: 8px;
     float: right;
-    content: ""; 
+    content: "";
     width: 0;
     height: 0;
     border-bottom: 4px solid transparent;
@@ -142,7 +143,7 @@ div.groups.pads {
     border: none;
     cursor: pointer;
     list-style: none;
-    padding: 0 ;
+    padding: 0;
 }
 
 .navbarNav li:hover .navbar-dropdown {
@@ -166,7 +167,7 @@ div.groups.pads {
     transition: 0.1s;
 }
 
-.navbar-dropdown li:hover{
+.navbar-dropdown li:hover {
     background-color: rgb(51, 51, 51);
 }
 
