@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 .peneliti-title {
-    margin: 30px 0 10px;
+    margin: 30px 0 10px 0;
     font-family: 'Titillium Web', Arial, sans-serif;
     font-size: 15px;
     color: #666;
@@ -53,7 +53,8 @@
 .gallery-post-peneliti {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 0 100px 5px;
+    padding: 0;
+    margin: 0 0 100px 0;
     background: #eee;
 }
 
@@ -76,4 +77,64 @@
     flex-direction: row;
     justify-content: left;
     margin: 4px 0;
+}
+
+@media (max-width: 900px) {
+    .gallery-image.peneliti {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .gallery-post-peneliti {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 0;
+        background: transparent;
+    }
+
+    .gallery-image.peneliti img {
+        margin: 0 2px;
+        padding: 0;
+        max-width: 100%;
+        height: auto;
+        width: 150px;
+    }
+
+    .gallery-image.peneliti:nth-child(4) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 4px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .gallery-image.peneliti {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .gallery-image.peneliti img {
+        margin: 0 2px;
+        max-width: 100%;
+        height: auto;
+        width: 150px;
+    }
+
+    .gallery-image.peneliti:nth-child(4) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 4px 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .peneliti-img img {
+        width: 150px;
+    }
 }

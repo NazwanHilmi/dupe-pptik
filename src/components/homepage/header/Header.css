@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,16 +19,9 @@
 div.navigationBar {
     margin: 0 auto;
     color: #666666;
-    font-size: 14px;
+    font-size: 10px;
     font-family: 'Titillium Web', Arial, sans-serif;
     background-color: #0099CC;
-}
-
-div.container.groups {
-    color: #666666;
-    font-size: 14px;
-    font-family: 'Titillium Web', Arial, sans-serif;
-    margin: 0 0 auto;
 }
 
 div.groups.pads {
@@ -44,6 +41,12 @@ div.groups.pads {
     margin: 0 auto;
     max-height: 60px;
     padding: 0;
+}
+
+.navbar-toggle {
+    display: none;
+    cursor: pointer;
+    vertical-align: middle;
 }
 
 .siteDesc {
@@ -67,6 +70,7 @@ div.groups.pads {
     text-decoration: none;
     border-top: 1px solid #fff;
     z-index: 999;
+    flex-wrap: wrap;
 }
 
 .navbarNav li {
@@ -254,4 +258,147 @@ div.groups.pads {
     color: #ffffff7c;
     padding: 0;
     transition: 0.1s;
+}
+
+
+/* Responsive */
+
+@media (max-width: 1200px) {
+
+    div.groups.pads {
+        width: 100%;
+        padding: 10px 0 10px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .siteTitle a img {
+        border-radius: 0;
+        height: auto;
+        margin: 0 30px;
+        max-height: 40px;
+    }
+
+    .navbar-toggle {
+        display: flex;
+        margin: 0 10px;
+        z-index: 999;
+    }
+
+    .navbar-toggle .icon {
+        font-size: 22px;
+    }
+
+    .siteDesc {
+        display: none;
+    }
+
+    .navbarNav {
+        background-color: #0099CC;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: none;
+        opacity: 0;
+        border-bottom-left-radius: 10px;
+        right: 0;
+        top: 0;
+        width: 150px;
+        position: absolute;
+        transition: width 0.5s, height 0.5s, top 0.5s, right 0.5s;
+        z-index: 0;
+    }
+
+    .navbarNav.show {
+        opacity: 1;
+        right: 0;
+        top: 60px;
+        transform: translateY(0);
+        transition: all 0.3s ease;
+        z-index: 10;
+    }
+
+    .navbarNav li {
+        width: 100%;
+        padding: 5px 0 5px 10px;
+    }
+
+    .navbarNav li a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    .navbarNav li a {
+        font-weight: 300;
+        color: white;
+        font-size: 12px;
+        font-family: 'Titillium Web', Arial, sans-serif;
+    }
+
+    .navbar-dropdown .drop-menu {
+        margin: 8px 10px 0 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 5px solid #00000093;
+    }
+
+    .navbar-dropdown {
+        box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.4);
+        top: 0;
+        left: -150px;
+        width: 150px;
+        background-color: #fefefe;
+        border-radius: 10px;
+    }
+
+    .navbar-dropdown li {
+        margin: 0;
+    }
+
+    .navbar-dropdown li a {
+        font-size: 14px;
+        color: rgba(49, 49, 49, 0.788);
+        transition: 0.1s;
+    }
+
+    .navbar-dropdown li:hover {
+        background-color: #fefefe;
+        border-radius: 10px;
+    }
+
+    .navbarNav .navbar-dropdown li a span {
+        color: rgba(49, 49, 49, 0.788);
+    }
+
+    .navbarNav .navbar-dropdown li a span:hover {
+        color: black;
+    }
+
+    .navbarNav .navbar-dropdown li a:hover {
+        color: black;
+    }
+
+    .navbar-drop-down {
+        top: 100%;
+        left: 20px;
+        width: 250px;
+        background-color: white;
+        color: black;
+        box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+    }
+
+    .navbar-dropdown-down {
+        top: 100%;
+        left: 20px;
+        width: 250px;
+        background-color: white;
+        color: black;
+        border: none;
+        box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+    }
 }

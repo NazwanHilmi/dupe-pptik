@@ -62,3 +62,14 @@ pptik-content .title-content.vm {
     margin: 0;
     text-align: left;
 }
+
+
+@media (max-width: 575px) {
+    .pptik-content .title-content .content-image .pptik-img {
+        width: 200px;
+    }
+
+    pptik-content .title-content.vm {
+        width: 200px;
+    }
+}
