@@ -12,6 +12,7 @@ import Seminar, { Riset } from './pages/kegiatan/seminar/Seminar';
 import SmartSystem from './pages/karya/smartsystem/SmartSystem';
 import ModulBelajar from './pages/abstein/Abstein';
 
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -82,6 +83,7 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

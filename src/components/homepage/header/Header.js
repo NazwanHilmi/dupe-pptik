@@ -3,6 +3,7 @@ import './Header.css'
 import logo from '../../img/logo-itb.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
 
@@ -32,9 +33,12 @@ const Header = () => {
                             <a href="/" aria-current="page"><span>Home</span></a>
                         </li>
                         <li>
-                            <a href="/kegiatanpage">Kegiatan</a>
+                            {/* <a href="/kegiatanpage">Kegiatan</a> */}
+                            <NavLink exact to="/kegiatanpage" activeClassName="active" >Kegiatan</NavLink>
                             <ul className='navbar-dropdown'>
-                                <li><a href="/seminarpage">Seminar &amp; Workshop</a></li>
+                                <li>
+                                    <NavLink exact to="/seminarpage">Seminar &amp; Workshop</NavLink>
+                                </li>
                                 <li><a href="/risetpage">Riset</a></li>
                             </ul>
                             <div className='drop-menu'></div>
