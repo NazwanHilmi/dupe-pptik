@@ -33,7 +33,6 @@ const Header = () => {
                             <a href="/" aria-current="page"><span>Home</span></a>
                         </li>
                         <li>
-                            {/* <a href="/kegiatanpage">Kegiatan</a> */}
                             <NavLink exact to="/kegiatanpage" activeClassName="active" >Kegiatan</NavLink>
                             <ul className='navbar-dropdown'>
                                 <li>
